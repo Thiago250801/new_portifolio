@@ -12,7 +12,7 @@ import { candidate, dbList, techList, tools } from "../data/portfolio";
 
 export function CoverSlide() {
   return (
-    <div className="relative w-full h-full overflow-hidden bg-[#0D1117] text-white">
+    <div className="relative w-full h-full overflow-y-auto overflow-x-hidden bg-[#0D1117] text-white">
       <GlowBlob
         color="#7C3AED"
         size={500}

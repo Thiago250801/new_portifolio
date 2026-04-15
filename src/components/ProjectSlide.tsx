@@ -18,7 +18,7 @@ interface ProjectSlideProps {
 
 export function ProjectSlide({ project, slideNumber }: ProjectSlideProps) {
   return (
-    <div className="relative w-full h-full flex flex-col md:flex-row overflow-y-auto md:overflow-hidden bg-[#0D1117]">
+    <div className="relative w-full h-full flex flex-col md:flex-row overflow-y-auto overflow-x-hidden bg-[#0D1117]">
       <GlowBlob color="#7C3AED" size={600} top="-200px" right="-200px" opacity={0.15} />
       <GlowBlob color="#22D3EE" size={500} bottom="-150px" left="-150px" opacity={0.15} />
 
