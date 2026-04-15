@@ -154,7 +154,7 @@ function NavigationHint({ isTouchLayout }: { isTouchLayout: boolean }) {
       style={{ opacity: visible ? 1 : 0, pointerEvents: 'none' }}
     >
       {isTouchLayout ? <Smartphone size={13} /> : <Keyboard size={13} />}
-      {isTouchLayout ? 'Toque na esquerda ou direita para navegar' : 'Use ← → ou Espaço para navegar'}
+      {isTouchLayout ? 'Toque na esquerda ou direita para navegar ou use as setas ← →' : 'Use ← → ou Espaço para navegar'}
     </div>
   )
 }
