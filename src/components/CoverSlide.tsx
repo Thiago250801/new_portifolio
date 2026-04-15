@@ -154,7 +154,7 @@ export function CoverSlide() {
         </div>
       </div>
 
-      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-gray-300 text-xs">
+      <div className="hidden lg:block absolute bottom-3 left-1/2 -translate-x-1/2 text-gray-300 text-xs">
         Use as setas ← → ou espaço para navegar pelos slides
       </div>
     </div>
