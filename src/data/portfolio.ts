@@ -60,6 +60,7 @@ export const techList = [
   { label: "NodeJS", iconClass: "devicon-nodejs-plain-wordmark colored" },
   { label: "ExpressJs", iconClass: "devicon-express-original colored" },
   { label: "WordPress", iconClass: "devicon-wordpress-plain colored" },
+  { label: "Docker", iconClass: "devicon-docker-plain colored" },
 ];
 
 export const dbList = [
@@ -234,4 +235,21 @@ export const projects: Project[] = [
         floatingIcon: SquareTerminal,
         floatingIconColor: '#5FA04E',
     },  
+    {
+        id: 8,
+        tag: 'Web Application',
+        title: 'Api de Produtos com Fastify',
+        description: 'Uma operação de CRUD completa para gerenciamento de produtos, utilizando Fastify para o servidor, Prisma como ORM e PostgreSQL como banco de dados, demonstrando uma arquitetura moderna e eficiente para APIs RESTful, com autenticação JWT e documentação automática via Swagger e Zod. Além de uso de docker para implemetar o banco de dados e facilitar o desenvolvimento.',
+        tech: [
+            { label: 'NodeJS', color: '#5FA04E', devicon: 'devicon-nodejs-plain-wordmark colored text-3xl' },
+            { label: 'Fastify', color: '#000000', devicon: 'devicon-fastify-plain colored text-3xl' },
+            { label: 'Prisma', color: '#000000', devicon: 'devicon-prisma-plain colored text-3xl' },
+            { label: 'PostgreSQL', color: '#4479A1', devicon: 'devicon-postgresql-plain colored text-3xl' },
+            { label: 'Docker', color: '#2496ED', devicon: 'devicon-docker-plain colored text-3xl' },
+        ],
+        repoUrl: 'https://github.com/Thiago250801/fastify-products',
+        floatingIcon: Code2,
+        floatingIconColor: '#5FA04E',
+        media: { type: 'image', src: '/media/produtosAPI.png' },
+    }
 ]
